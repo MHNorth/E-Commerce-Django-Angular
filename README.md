@@ -1,6 +1,6 @@
 # Django-Angular E-Commerce Application
 
-Django-Angular E-Commerce is a complex full stack web application that makes use of multi-features and multi-faceted modeling relationships.  Asynchronous messaging, client and server side frameworks, APIs, cloud and container-based technologies have been integrated within this app.
+Django-Angular E-Commerce is a complex full stack web application that makes use of multi-features and multi-faceted modeling relationships.  Asynchronous messaging, Jenkins CI/CD, client and server side frameworks, APIs, cloud and container-based technologies have been integrated within this app.
 
 ## Installation
 
@@ -15,6 +15,7 @@ For more support please visit the following website documentation links:
 * [Docker Documentation](https://docs.docker.com/)
 * [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html)
 * [Django Rest Framework Documentation](https://www.django-rest-framework.org/)
+* [Jenkins Documentation](https://jenkins.io/)
 
 
 ## Contributing
