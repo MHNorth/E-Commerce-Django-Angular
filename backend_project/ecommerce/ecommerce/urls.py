@@ -1,4 +1,4 @@
-"""backend URL Configuration
+"""ecommerce URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -13,18 +13,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
-from rest_framework import routers
-from .api import views
-
-
-router = routers.DefaultRouter()
-router.register(r'users', views.UserViewSet)
-
-# Wire up our API using automatic URL routing.
-# Include login URLs for the browsable API
+from django.contrib import admin
+from django.urls import path
 
 urlpatterns = [
-    url(r'^', include(router.urls)),
-    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('admin/', admin.site.urls),
 ]
